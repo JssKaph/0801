@@ -12,6 +12,5 @@ public class Practice {
 			sec = sec%60; //초
 			System.out.printf("%d초는 %d시간 %d분 %d초입니다.", second, hour, minute, sec);
 			//틀림 강사님 깃허브 참고
-;
 	}
 }

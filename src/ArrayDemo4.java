@@ -1,9 +1,9 @@
 
 public class ArrayDemo4 {
 	public static void main(String[] args) {
-		Product [] array = new Product[3];
-		for(int i=0; i<array.length; i++) {
-			array[i] = new Product(); 
+		Product [] array = new Product[3]; // 배열 선언과 생성
+		for(int i=0; i<array.length; i++) { 
+			array[i] = new Product();  //배열 순서 지정
 		}
 			array[0].name = "연필";
 			array[0].price=200;

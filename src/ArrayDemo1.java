@@ -19,7 +19,7 @@ public class ArrayDemo1 {
 		for(int i=0; i<3; i++) {
 			System.out.printf("이름=%s, 나이=%d\n",array[i].name, array[i].age);
 		}
-		int sum = 0;
+		int sum = 0; // sum 초기화
 		for(int i=0; i<3; i++) {
 			sum += array[i].age;  //+= 누적
 		}

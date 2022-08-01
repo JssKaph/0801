@@ -1,7 +1,7 @@
 
 public class Student {
 	String name, hakbun; // 멤버변수(instance Variable) or class Variable(static 이 붙으면)
-	int kor, eng, mat, tot;
+	int kor, eng, mat, tot, age;
 	double avg;
 	char grade;
 	

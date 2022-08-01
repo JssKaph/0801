@@ -49,6 +49,16 @@ public class Practice4 {
 		for (int su : array) {
 			System.out.printf("%d\t", su);
 		}
+		int max = array[0], min = array[0];
+		for(int i = 0 ; i < array.length ; i++) {
+			if(max < array[i])   
+				max = array[i];
+			else    
+				min = array[i];
+		}
+		System.out.println();
+		System.out.println("최대값 : " + max);
+		System.out.println("최소값 : " + min);
 		//	입력받은 수를 소인수분해 해서 그 결과를 각 줄에 3개씩 출력하기
 		//	1부터 100까지 소수를 출력하기
 	}
