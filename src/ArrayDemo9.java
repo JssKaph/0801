@@ -49,7 +49,7 @@ public class ArrayDemo9 {
 		for (int su : original) {
 			System.out.printf("%d\t", su);
 		}
-		for (int i=0; i<original.length - 1; i++) { // 밑으로
+		for (int i=0; i<original.length-1; i++) { // 밑으로
 			for(int j=0; j<original.length -1; j++) { // 옆으로 비교 -1은 맨 뒤에서 앞에것 까지만 하기 때문에
 				if(original[j]>original[j+1]) { // (오름차순 이라면) 앞에가 클 때 교환
 					int temp = original[j]; // 임시 변수에 앞에 값 저장

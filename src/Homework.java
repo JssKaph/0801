@@ -4,12 +4,20 @@ import java.util.Scanner;
 
 public class Homework {
 	public static void main(String[] args) {
-		int mok, na =0;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("수를 입력 하십시오 : ");
 		int su = sc.nextInt();
-		for (int i=2; i<=su; i--) {
-			
+		int count =0;
+		System.out.print(1+ "\t"); 
+		count++; // 1카운트
+		for(int i=2; i<su; i++) { // 2부터 su까지
+			if(su % i == 0) {//su가 i에 나눠 지나?
+				System.out.print(i + "\t"); 
+					count++; //나눌 때 마다 카운트
+						if(count % 3 ==0)
+							System.out.println(); // 3카운트 때 마다 밑줄로
+			}
 		}
+		System.out.println(su);
 	}
 }
